@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chinese Zodiac</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Chinese Zodiac</h1>
+    </header>
+    <div class="birth-year">
+      <div class="label">
+        <label class="label-name" for="year">Enter a birth year</label>
+        <input
+          class="input-year"
+          type="number"
+          id="year"
+          name="year"
+          min="1900"
+          max="2023"
+        />
+      </div>
+      <div class="button-submit">
+        <button id="btn-sign" type="submit">Find your chinese zodiac</button>
+      </div>
+    </div>
+    <div class="your-sign">
+      <p id="space">Your zodiac sign is <span id="output"></span></p>
+    </div>
+    <footer class="footer"><b>&#169; copyright Eleonora Gjorgjieva</b></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
