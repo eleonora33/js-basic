@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #ffb703;
+    --color-accent: #023047;
+    --color-other: #8ecae6;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62, 5%;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1670790734657-9680589fae49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);
+    opacity: 0.8;
+}
+
+
+.print {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleRecipet {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+label {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+#nameRecipe {
+    padding: 1rem;
+}
+
+#quantity {
+    padding: 1rem;
+}
+
+#ingredients {
+    padding: 1rem;
+}
+
+#btn-button {
+    padding: 1rem;
+    margin-top: 2rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    background-color: var(--color-other);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    color: var(--color-accent);
+    font-weight: 600;
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-accent);
+    font-weight: 600;
+
+}
+
+.print {
+    display: contents;
+}
