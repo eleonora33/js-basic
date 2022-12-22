@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="list">
+      <h1 id="param-container"></h1>
+    </div>
+    <table class="tableForRecipe">
+      <form class="recipe">
+        <thead class="thead">
+          <tr>
+            <th>Allrecipes Dinner Spinner</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>
+            <label for="inputName"> Enter the name of the recipe </label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="inputName"
+              name="inputName"
+              autocomplete="off"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="inputQuantity">
+              How many ingredients do we need for the recipe
+            </label>
+          </td>
+          <td>
+            <textarea
+              name="inputQuantity"
+              id="inputQuantity"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="nameOfIngredient">
+              Enter the name of every ingredient
+            </label>
+          </td>
+          <td>
+            <textarea
+              name="nameOfIngredient"
+              id="nameOfIngredient"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </td>
+        </tr>
+        <button id="btn-button" class="btn btn-accent">Submit</button>
+      </form>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
