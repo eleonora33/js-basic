@@ -73,12 +73,11 @@ console.log(otherCheck);
 const myCar = {
   model: "opel",
   color: "white",
-  tipOfFuel: "dizel",
-  distance: 500,
-  consumption: 6,
-  formulaForFuelConsumption: function () {
-    return this.distance / this.consumption;
+  tipOfFuel: "diezel",
+  fuelConsumption: 6,
+  formulaForFuelConsumption: function (distance) {
+    return distance / this.fuelConsumption;
   },
 };
 
-console.log(myCar.formulaForFuelConsumption().toFixed(2));
+console.log(myCar.formulaForFuelConsumption(500).toFixed(2));
