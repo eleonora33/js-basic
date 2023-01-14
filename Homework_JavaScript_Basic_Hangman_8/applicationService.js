@@ -57,6 +57,7 @@ function checkLetter(letter) {
         gameConfiguration.currentLives--;
         document.querySelector("#message-for-lives").textContent = `Current ${gameConfiguration.currentLives} lives`;
         drawMan(gameConfiguration.currentLives);
+
     } else {
         let isGameWon = checkIfGameIsWon();
 
@@ -86,6 +87,9 @@ function resetGameSettings() {
     gameConfiguration.currentLives = gameConfiguration.startingLives;
     document.querySelector(".win-lose-message").textContent = "";
     document.querySelector(".message-for-lives").textContent = "";
+    canvasCreator();
+    initialDrawing();
+
 }
 
 //Canvas
@@ -178,6 +182,8 @@ const drawMan = (count) => {
 let { initialDrawing } = canvasCreator();
 //initialDrawing would draw the frame
 initialDrawing();
+
+
 
 
 
