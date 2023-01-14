@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <div class="options-container">
+      <label for="categories">Please Select A Category:</label>
+      <select name="categories" id="categories">
+        <option disabled selected>Select category</option>
+        <option value="Fruits">Fruits</option>
+        <option value="Movies">Movies</option>
+        <option value="Countries">Countries</option>
+      </select>
+    </div>
+    <h2>
+      Use the alphabet below to guess the word
+    </h2>
+    <div class="letter-container"></div>
+    <p class="message-for-lives"></p>
+    <p>The Chosen Category Is <span class="output"></span></p>
+    <div class="primary-container"></div>
+    <p class="win-lose-message" id="message-for-lives"></p>
+    <div class="draw-hangman-container">
+    <canvas id="myCanvas" width="300" height="150"></canvas>
+  </div>
+
+    <script src="applicationService.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
