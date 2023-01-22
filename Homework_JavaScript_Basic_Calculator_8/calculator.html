@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div>
+		<h1>Calculator</h1>
+		<table>
+			<tr>
+				<td colspan="5" id="inputs"></td>
+			</tr>
+			<tr>
+				<td colspan="5" id="result">result</td>
+			</tr>
+			<tr>
+				<td><button type="submit" class="squareButtons numbers" value="7">7</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="8">8</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="9">9</button></td>
+				<td><button type="submit" class="squareButtons" id="divide">/</button></td>
+				<td><button type="submit" class="squareButtons">sqr</button></td>
+			</tr>
+			<tr>
+				<td><button type="submit" class="squareButtons numbers" value="4">4</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="5">5</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="6">6</button></td>
+				<td><button type="submit" class="squareButtons" id="multiply">*</button></td>
+				<td><button type="submit" class="squareButtons" id="resetBtn">C</button></td>
+			</tr>
+			<tr>
+				<td><button type="submit" class="squareButtons numbers" value="1">1</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="2">2</button></td>
+				<td><button type="submit" class="squareButtons numbers" value="3">3</button></td>
+				<td><button type="submit" class="squareButtons" id="subtract">-</button></td>
+				<td rowspan="2"><button type="submit" id="equalsBtn">=</button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="submit" class="numbers" id="zeroBtn" value="0">0</button></td>
+				<td><button type="submit" class="squareButtons" id="decimal">.</button></td>
+				<td><button type="submit" class="squareButtons" id="sum">+</button></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

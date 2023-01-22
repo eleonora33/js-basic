@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    text-align: center;
+}
+button{
+    background-color: rgba(210, 215, 219, 0.3);
+    border-radius: 3px;
+}
+.squareButtons{
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    border: 2px solid black;
+    margin: 10px auto;
+}
+#inputs{
+    height: 20px;
+    text-align: right;
+}
+#result{
+    text-align: right;
+    border: 1px solid black;
+    height: 30px;
+}
+#zeroBtn{
+    width: 65px;
+    height: 30px;
+}
+#equalsBtn{
+    width: 30px;
+    height: 65px;
+}
